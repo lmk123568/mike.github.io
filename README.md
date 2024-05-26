@@ -1,29 +1,43 @@
-# vue_naive
+# 个人主页
 
-This template should help get you started developing with Vue 3 in Vite.
+本项目采用技术栈为 Vue3 + Bootstrap5 + Naive UI
 
-## Recommended IDE Setup
+## 使用指南
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+`git clone`本项目然后`cd`到项目目录，运行
 
 ```sh
-npm install
+npm i
 ```
 
-### Compile and Hot-Reload for Development
+开启`vite`自带服务器，预览网页
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+修改完毕后打包（这里打包路径改为`/docs`）
 
 ```sh
 npm run build
 ```
+
+## 安装
+
+```bash
+# 初始化 vue 项目
+npm init vue
+
+# 代码格式化 prettier
+npm i -g prettier
+prettier .
+
+# 安装 Bootstrap5
+# 然后 main.js 中导入
+npm i bootstrap
+npm i bootstrap-icons
+
+# 安装组件
+npm i -D naive-ui
+```
+
