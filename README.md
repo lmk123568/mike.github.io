@@ -37,6 +37,10 @@ prettier .
 npm i bootstrap
 npm i bootstrap-icons
 
+import 'bootstrap/dist/js/bootstrap.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.min.css';
+
 # 安装组件
 npm i -D naive-ui
 ```
